@@ -1,0 +1,36 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "fresh_start": "expo start --dev-client -c"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/native-stack": "^6.9.8",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.7",
+    "dayjs": "^1.11.7",
+    "expo": "~47.0.12",
+    "expo-dev-client": "~2.0.1",
+    "expo-local-authentication": "~13.0.2",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "nativewind": "^2.0.11",
+    "postcss": "^8.4.21",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-contact-tracer-hitesh": "^1.2.8",
+    "react-native-safe-area-context": "4.4.1",
+    "react-native-screens": "~3.18.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
